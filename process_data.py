@@ -1,5 +1,4 @@
 # -------------------------------------------- 
-# Logixal DES - AI Powered Enterprise Search
 # __author__ : Dnyaneshwar Dewadkar 
 #            : 12:53 PM 20/07/20
 #            : process_data.py 
@@ -14,8 +13,8 @@ import shutil
 from sklearn import model_selection
 from tqdm import tqdm
 
-DATA_PATH = '/home/jjpl222/vw/wheat_data/'
-OUTPUT_PATH = "/home/jjpl222/vw/yolov5/wheat_data/"
+DATA_PATH = '/home/dewadkar/volkswagan/wheat/'
+OUTPUT_PATH = "/home/dewadkar/volkswagan/wheat/yolov5/wheat_data/"
 
 
 def process_data(data, data_type="train"):
